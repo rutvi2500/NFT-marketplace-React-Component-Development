@@ -1,9 +1,9 @@
 // import Logo from '../../assets/BnB.svg';
 import HeaderStyle from './Header.style';
-import Logo from '../../assets/BnB.svg';
-import Search from '../../assets/Icons/Search.png';
-import Lock from '../../assets/Icons/Lock.svg';
-import Menu from '../../assets/Icons/Menu.svg';
+import Logo from '../../assets/Header/BnB.svg';
+import Search from '../../assets/Header/Search.png';
+import Lock from '../../assets/Header/Lock.svg';
+import Menu from '../../assets/Header/Menu.svg';
 
 const Header = () => {
   return (

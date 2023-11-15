@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
   padding: 0;
   margin: 20px;
 }

@@ -5,6 +5,8 @@ const HeaderStyle = styled.header`
   display: flex;
   align-items: center;
   padding: 0 50px;
+  line-height: 26px;
+  font-size: 14px;
   .header-content {
     display: flex;
     justify-content: space-between;
@@ -14,10 +16,7 @@ const HeaderStyle = styled.header`
   }
   .header-left-menu {
     color: ${(props) => props.theme.black};
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 14px;
     font-weight: ${(props) => props.theme.bold1};
-    line-height: 26px;
   }
   .header-right-menu {
     display: flex;
@@ -30,10 +29,7 @@ const HeaderStyle = styled.header`
     }
     p {
       color: ${(props) => props.theme.black90};
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-size: 14px;
       font-weight: ${(props) => props.theme.bold1};
-      line-height: 26px;
       text-decoration-line: underline;
       cursor: pointer;
     }
