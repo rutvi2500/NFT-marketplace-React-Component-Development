@@ -17,8 +17,8 @@ const SignUpForm = () => {
         <CustomInput
           label='Password'
           placeholder='Enter Password'
+          type='password'
           required
-          // suffix={<img src={Suffix} alt='send icon' />}
         />
         <CustomInput label='Refferal ID:' placeholder='Enter referralId' />
       </div>
@@ -26,8 +26,8 @@ const SignUpForm = () => {
         <img src={CheckboxImg} />
         <div className='signup-terms-content'>
           I have read and agree to BnB{' '}
-          <a style={{ color: '#7B61FF' }}>Terms of Service</a> and{' '}
-          <a style={{ color: '#7B61FF' }}>Private Policy</a>
+          <a>Terms of Service</a> and{' '}
+          <a>Private Policy</a>
         </div>
       </div>
       <Button className='create-account-btn' type='primary'>

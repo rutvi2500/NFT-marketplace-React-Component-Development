@@ -2,7 +2,8 @@ import HeaderStyle from './Header.style';
 import Logo from '../../assets/Header/BnB.svg';
 import Search from '../../assets/Header/Search.png';
 import Lock from '../../assets/Header/Lock.svg';
-import Menu from '../../assets/Header/Menu.svg';
+import MenuIcon from '../../assets/Header/Menu.svg';
+import MenuBgImg from '../../assets/Header/Ellipse 1.svg';
 
 const Header = () => {
   return (
@@ -14,12 +15,15 @@ const Header = () => {
           &nbsp;&nbsp;&nbsp;&nbsp;Magazine&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Shop
         </div>
         <div className='header-right-menu'>
-          <img src={Search} alt='search-icon' />
+          <img src={Search} className='search-icon' alt='search-icon' />
           <div className='sign-in'>
-            <img src={Lock} alt='search-icon' />
+            <img src={Lock} className='lock-icon' alt='lock-icon' />
             <p>Sign in</p>
           </div>
-          <img src={Menu} alt='menu-icon' />
+          <div className='menu-img-container'>
+            <img src={MenuBgImg} alt='menu-icon-bg' width={'50px'} height={'50px'} className='menu-bg' />
+            <img src={MenuIcon} alt='menu-icon' className='menu-icon' />
+          </div>
         </div>
       </div>
     </HeaderStyle>

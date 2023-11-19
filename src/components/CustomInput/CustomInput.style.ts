@@ -19,11 +19,8 @@ export const CustomInputStyle = styled.div`
 
     .required {
       color: #ff564a;
-      font-variant-numeric: lining-nums proportional-nums;
-      font-family: Helvetica Neue;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 500;
+      font-size: ${(props) => props.theme.fontXxs};
+      font-weight: ${(props) => props.theme.bold1};
       line-height: 14px;
     }
   }

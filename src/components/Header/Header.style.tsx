@@ -22,7 +22,8 @@ const HeaderStyle = styled.header`
     display: flex;
     gap: 60px;
     align-items: center;
-    img {
+    .search-icon,
+    .lock-icon {
       width: 20px;
       height: 20px;
       cursor: pointer;
@@ -32,6 +33,21 @@ const HeaderStyle = styled.header`
       font-weight: ${(props) => props.theme.bold1};
       text-decoration-line: underline;
       cursor: pointer;
+    }
+    .menu-img-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .menu-bg {
+        position: absolute;
+        z-index: 0;
+      }
+      .menu-icon {
+        position: relative;
+        z-index: 1;
+        padding: 15px;
+      }
     }
   }
   .sign-in {

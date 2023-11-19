@@ -17,7 +17,11 @@ body {
   padding: 0;
   margin: 20px;
   max-width: 1440px;
+  a {
+    color: #7B61FF
+  }
 }
+
 `;
 
 export default GlobalStyle;
