@@ -1,12 +1,12 @@
 import { MainSectionStyle } from './MainSection.style';
 
-import MainImg from '../../../assets/Home/MainImg.svg';
-import PlayBg from '../../../assets/Home/PlayBg.svg';
-import Play from '../../../assets/Home/Play.svg';
-import Avatar from '../../../assets/Home/Avatar.svg';
-import SliderImg from '../../../assets/Home/Slider Switch.svg';
-import LeftArrow from '../../../assets/Home/Left-Arrow.svg';
-import RightArrow from '../../../assets/Home/Right-Arrow.svg';
+import MainImg from '../../../assets/Home/MainSection/MainImg.svg';
+import PlayBg from '../../../assets/Home/MainSection/PlayBg.svg';
+import Play from '../../../assets/Home/MainSection/Play.svg';
+import Avatar from '../../../assets/Home/MainSection/Avatar.svg';
+import SliderImg from '../../../assets/Home/MainSection/Slider Switch.svg';
+import LeftArrow from '../../../assets/Home/MainSection/Left-Arrow.svg';
+import RightArrow from '../../../assets/Home/MainSection/Right-Arrow.svg';
 
 import { Button } from 'antd';
 
