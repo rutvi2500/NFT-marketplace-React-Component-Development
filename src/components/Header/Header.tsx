@@ -1,4 +1,3 @@
-// import Logo from '../../assets/BnB.svg';
 import HeaderStyle from './Header.style';
 import Logo from '../../assets/Header/BnB.svg';
 import Search from '../../assets/Header/Search.png';
@@ -11,7 +10,8 @@ const Header = () => {
       <img height={'22px'} width={'55px'} src={Logo} alt='BnB Logo' />
       <div className='header-content'>
         <div className='header-left-menu'>
-          Art&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Community&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Magazine&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Shop
+          Art&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Community&nbsp;&nbsp;&nbsp;&nbsp;/
+          &nbsp;&nbsp;&nbsp;&nbsp;Magazine&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Shop
         </div>
         <div className='header-right-menu'>
           <img src={Search} alt='search-icon' />

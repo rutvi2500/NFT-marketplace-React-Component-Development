@@ -12,4 +12,13 @@ export const variables = {
   bold1: 500,
   bold2: 600,
   bold3: 700,
+
+  // font size
+  fontXxs: '12px',
+  fontXs: '14px',
+  fontS: '16px',
+  fontS1: '18px',
+  fontM: '20px',
+  fontM1: '24px',
+  fontXL: '40px',
 };

@@ -6,7 +6,7 @@ const HeaderStyle = styled.header`
   align-items: center;
   padding: 0 50px;
   line-height: 26px;
-  font-size: 14px;
+  font-size: ${(props) => props.theme.fontXs};
   .header-content {
     display: flex;
     justify-content: space-between;

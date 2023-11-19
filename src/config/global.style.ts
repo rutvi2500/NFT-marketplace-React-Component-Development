@@ -8,11 +8,15 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
 }
-
+html {
+  display: flex;
+  justify-content: center;
+}
 body {
   font-family: Helvetica;
   padding: 0;
   margin: 20px;
+  max-width: 1440px;
 }
 `;
 

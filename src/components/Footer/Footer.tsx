@@ -1,6 +1,5 @@
 import FooterStyle from './Footer.style';
 import Divider from '../../assets/Footer/Divider.svg';
-import { Input } from '../Ant/Input/Input.style';
 import Suffix from '../../assets/Footer/Suffix.png';
 import Instagram from '../../assets/Footer/socials/Instagram.svg';
 import Facebook from '../../assets/Footer/socials/Facebook.svg';
@@ -8,6 +7,7 @@ import GitHub from '../../assets/Footer/socials/GitHub.svg';
 import Google from '../../assets/Footer/socials/Google.svg';
 import Twitter from '../../assets/Footer/socials/Twitter.svg';
 import Pinterest from '../../assets/Footer/socials/Pinterest.svg';
+import CustomInput from '../CustomInput/CustomInput';
 
 const Footer = () => {
   return (
@@ -24,16 +24,18 @@ const Footer = () => {
           </div>
         </div>
         <div className='socials services'>
-          Art&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Community&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Magazine&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Shop
+          Marketplace&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Collections&nbsp;&nbsp;&nbsp;&nbsp;/
+          &nbsp;&nbsp;&nbsp;&nbsp;Sellers&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Blog
         </div>
       </div>
       <div className='footer-subscribe'>
         <div className='subscribe'>
           <div className='subscribe-label'>Subscribe And Get News</div>
-          <div className='input-container'>
-            <Input placeholder='Enter Email' suffix={<img src={Suffix} />} />
-            <label className='input-label'>Email</label>
-          </div>
+          <CustomInput
+            label='Email'
+            placeholder='Enter your email'
+            suffix={<img src={Suffix} alt='send' />}
+          />
         </div>
         <div className='social-icons'>
           <img src={Instagram} />
