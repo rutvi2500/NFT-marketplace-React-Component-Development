@@ -13,7 +13,7 @@ export const CustomInputStyle = styled.div`
     left: 8px;
     padding: 0 8px;
     font-size: ${(props) => props.theme.fontXxs};
-    background-color: ${(props) => props.theme.backgroundColor};
+    background-color: ${(props) => props.theme.white};
     color: ${(props) => props.theme.gray3};
     font-weight: ${(props) => props.theme.bold1};
 

@@ -27,7 +27,7 @@ export const SignUpFormStyle = styled.div`
     width: 100%;
     margin-top: 33px;
 
-    color: ${(props) => props.theme.backgroundColor};
+    color: ${(props) => props.theme.white};
     text-align: center;
     font-size: ${(props) => props.theme.fontS};
     font-weight: ${(props) => props.theme.bold3};

@@ -95,7 +95,7 @@ export const MainSectionStyle = styled.div`
         }
 
         p {
-          color: var(--white, #fff);
+          color: ${(props) => props.theme.white};
           font-size: ${(props) => props.theme.fontM};
           font-weight: 400;
           line-height: 32px;
@@ -116,7 +116,7 @@ export const MainSectionStyle = styled.div`
       height: 50px;
 
       .arrow {
-        background: white;
+        background: ${(props) => props.theme.white};
         width: 50px;
         height: 50px;
         display: flex;

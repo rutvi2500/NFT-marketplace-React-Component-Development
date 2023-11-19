@@ -1,7 +1,7 @@
 export const variables = {
   // colors
   primary: '#7B61FF',
-  backgroundColor: '#FFFFFF',
+  white: '#FFFFFF',
   black: '#000000',
   black90: '#232632',
   dark: '#3b5266',
