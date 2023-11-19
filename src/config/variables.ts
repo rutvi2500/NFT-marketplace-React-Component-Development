@@ -21,4 +21,5 @@ export const variables = {
   fontM: '20px',
   fontM1: '24px',
   fontXL: '40px',
+  fontXxl: '60px',
 };

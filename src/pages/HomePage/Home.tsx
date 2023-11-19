@@ -1,7 +1,13 @@
+import MainSection from '../../components/Home/MainSection/MainSection';
+import { HomeStyle } from './Home.style';
+
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <HomeStyle>
+      <MainSection />
+      <div>Banner</div>
+    </HomeStyle>
+  );
+};
 
-export default Home
+export default Home;
