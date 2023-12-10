@@ -29,4 +29,10 @@ export const FeaturedStyle = styled.div`
       }
     }
   }
+
+  .featured-cards-container {
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+  }
 `;

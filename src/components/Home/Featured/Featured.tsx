@@ -1,6 +1,7 @@
 import { FeaturedStyle } from './Featured.style';
 import RightArrow from '../../../assets/Home/MainSection/Right-Arrow.svg';
 import FeaturedCard from '../../FeaturedCard/FeaturedCard';
+import { HomePageCardsData } from '../../../utils/Data';
 
 const Featured = () => {
   return (
@@ -12,7 +13,11 @@ const Featured = () => {
           <img src={RightArrow} />
         </div>
       </div>
-      <FeaturedCard />
+      <div className='featured-cards-container'>
+        {HomePageCardsData.map((cardData) => (
+          <FeaturedCard cardData={cardData} />
+        ))}
+      </div>
     </FeaturedStyle>
   );
 };

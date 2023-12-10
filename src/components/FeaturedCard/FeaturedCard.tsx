@@ -1,25 +1,34 @@
 import { FeaturedCardStyle } from './FeaturedCard.style';
 import Clock from '../../assets/Card/Clock.svg';
-import CardImg1 from '../../assets/Card/CardImg1.svg';
-import Avatar1 from '../../assets/Avatar/Avatar1.svg';
 import Ethereum from '../../assets/Card/Ethereum.svg';
 import Like from '../../assets/Card/Like.svg';
 
-const FeaturedCard = () => {
+interface FeaturedCardProps {
+  cardData: {
+    time: string;
+    likes: string;
+    cardImg: string;
+    creatorAvatar: string;
+    creatorName: string;
+  };
+}
+
+const FeaturedCard = ({ cardData }: FeaturedCardProps) => {
+  const { time, likes, cardImg, creatorName, creatorAvatar } = cardData;
   return (
     <FeaturedCardStyle>
       <div className='card-image'>
-        <img src={CardImg1} alt='featured-img' />
+        <img src={cardImg} alt={`${cardImg}`} />
         <div className='time'>
           <img src={Clock} />
-          <p>05:20</p>
+          <p>{time}</p>
         </div>
       </div>
       <div className='card-content'>
         <div className='card-title'>Deadzone 13 Hideout</div>
         <div className='seller'>
-          <img src={Avatar1} alt='avatar' />
-          <p>@marterium</p>
+          <img src={creatorAvatar} alt='creator-avatar' />
+          <p>{creatorName}</p>
         </div>
         <div className='stats-container'>
           <div className='left-stats'>
@@ -31,7 +40,7 @@ const FeaturedCard = () => {
           </div>
           <div className='likes'>
             <img src={Like} alt='like' />
-            <p>34</p>
+            <p>{likes}</p>
           </div>
         </div>
       </div>
