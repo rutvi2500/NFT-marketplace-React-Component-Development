@@ -7,6 +7,7 @@ export const variables = {
   dark: '#3b5266',
   dark2: '#191B23',
   gray3: '#828282',
+  gray: '#EBEDF2',
 
   // font weight
   bold1: 500,

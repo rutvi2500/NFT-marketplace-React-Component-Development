@@ -127,9 +127,6 @@ export const MainSectionStyle = styled.div`
     }
   }
 
-  .main-img-content {
-  }
-
   .main-img {
     top: 0;
     right: calc(((100vw - 1460px) / 2));
