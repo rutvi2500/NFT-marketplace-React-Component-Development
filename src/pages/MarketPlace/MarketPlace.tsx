@@ -2,7 +2,7 @@ import FeaturedCard from '../../components/FeaturedCard/FeaturedCard';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import { MarketPlaceCardsData } from '../../utils/Data';
 import { MarketPlaceStyle } from './MarketPlace.style';
-import LoadMore from '../../assets/MarketPlace/Reload.svg'
+import LoadMore from '../../assets/MarketPlace/Reload.svg';
 
 const MarketPlace = () => {
   return (

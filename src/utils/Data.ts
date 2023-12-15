@@ -29,7 +29,6 @@ import Avatar13 from '../assets/Avatar/Avatar13.svg';
 import Avatar14 from '../assets/Avatar/Avatar14.svg';
 import Avatar15 from '../assets/Avatar/Avatar15.svg';
 
-
 export const HomePageCardsData = [
   {
     time: '05:20',
@@ -166,5 +165,98 @@ export const MarketPlaceCardsData = [
     cardImg: CardImage15,
     creatorAvatar: Avatar15,
     creatorName: '@marterium',
+  },
+];
+
+export const topSellers = [
+  {
+    id: 1,
+    sellerName: '@Marterium',
+    sellerAvatar: Avatar2,
+    floor: '1.66ETH',
+    bnb: 475.88,
+    price: 4.8,
+    increase: 24.6,
+  },
+  {
+    id: 2,
+    sellerName: '@Shakinsir',
+    sellerAvatar: Avatar1,
+    floor: '1.22ETH',
+    bnb: 321.5,
+    price: 2.8,
+    increase: 22.5,
+  },
+  {
+    id: 3,
+    sellerName: '@S75Studio',
+    sellerAvatar: Avatar3,
+    floor: '1.05ETH',
+    bnb: 275.85,
+    price: 3.1,
+    increase: 18.5,
+  },
+  {
+    id: 4,
+    sellerName: '@GraphicMuzic',
+    sellerAvatar: Avatar4,
+    floor: '0.95ETH',
+    bnb: 150.85,
+    price: 2.1,
+    increase: 20.5,
+  },
+  {
+    id: 5,
+    sellerName: '@Marterium',
+    sellerAvatar: Avatar5,
+    floor: '1.66ETH',
+    bnb: 475.98,
+    price: 1.1,
+    increase: 24.6,
+  },
+  {
+    id: 6,
+    sellerName: '@Marterium',
+    sellerAvatar: Avatar6,
+    floor: '1.66ETH',
+    bnb: 475.98,
+    price: 4.8,
+    increase: 24.6,
+  },
+  {
+    id: 7,
+    sellerName: '@Marterium',
+    sellerAvatar: Avatar7,
+    floor: '1.05ETH',
+    bnb: 275.85,
+    price: 2.8,
+    increase: 24.6,
+  },
+  {
+    id: 8,
+    sellerName: '@Shakinsir',
+    sellerAvatar: Avatar8,
+    floor: '1.22ETH',
+    bnb: 150.85,
+    price: 3.1,
+    increase: 22.5,
+  },
+  {
+    id: 9,
+    sellerName: '@S75Studio',
+    sellerAvatar: Avatar9,
+    floor: '0.95ETH',
+    bnb: 321.5,
+    price: 2.1,
+    increase: 18.5,
+  },
+  {
+    id: 10,
+    sellerName: '@GraphicMuzic',
+    sellerAvatar: Avatar10,
+    floor: '1.66ETH',
+    bnb: 475.98,
+    price: 1.1,
+    increase: 20.5,
   },
 ];

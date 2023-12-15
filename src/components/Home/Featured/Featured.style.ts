@@ -18,6 +18,7 @@ export const FeaturedStyle = styled.div`
       display: flex;
       align-items: center;
       gap: 8px;
+      cursor: pointer;
 
       p {
         color: ${(props) => props.theme.dark2};
