@@ -13,8 +13,8 @@ const BnBForAll = () => {
         </div>
       </div>
       <div className='avatars-container'>
-        {AllSellers.map((element) => (
-          <img src={element} alt='avatar' />
+        {AllSellers.map((element, index) => (
+          <img key={index} src={element} alt='avatar' />
         ))}
       </div>
       <Button className='get-started-btn'>Get Started</Button>

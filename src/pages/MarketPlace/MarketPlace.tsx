@@ -9,8 +9,8 @@ const MarketPlace = () => {
     <MarketPlaceStyle>
       <SearchBar />
       <div className='marketplace-cards-container'>
-        {MarketPlaceCardsData.map((cardData) => (
-          <FeaturedCard cardData={cardData} />
+        {MarketPlaceCardsData.map((cardData, index) => (
+          <FeaturedCard key={index} cardData={cardData} />
         ))}
       </div>
       <div className='loadmore-container'>

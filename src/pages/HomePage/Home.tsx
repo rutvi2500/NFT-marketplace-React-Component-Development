@@ -5,6 +5,7 @@ import Featured from '../../components/Home/Featured/Featured';
 import TopSellers from '../../components/Home/TopSellers/TopSellers';
 import MarketPlace from '../../components/Home/MarketPlace/MarketPlace';
 import BnBForAll from '../../components/Home/BnBForAll/BnBForAll';
+import DownloadCard from '../../components/Home/Download/DownloadCard';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TopSellers />
       <MarketPlace />
       <BnBForAll />
+      <DownloadCard />
     </HomeStyle>
   );
 };
