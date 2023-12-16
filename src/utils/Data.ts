@@ -260,3 +260,19 @@ export const topSellers = [
     increase: 20.5,
   },
 ];
+
+export const AllSellers = [
+  Avatar1,
+  Avatar2,
+  Avatar3,
+  Avatar4,
+  Avatar5,
+  Avatar6,
+  Avatar7,
+  Avatar8,
+  Avatar9,
+  Avatar10,
+  Avatar11,
+  Avatar12,
+  Avatar13,
+];

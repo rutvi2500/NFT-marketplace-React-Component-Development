@@ -4,6 +4,7 @@ import { HomeStyle } from './Home.style';
 import Featured from '../../components/Home/Featured/Featured';
 import TopSellers from '../../components/Home/TopSellers/TopSellers';
 import MarketPlace from '../../components/Home/MarketPlace/MarketPlace';
+import BnBForAll from '../../components/Home/BnBForAll/BnBForAll';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Featured />
       <TopSellers />
       <MarketPlace />
+      <BnBForAll />
     </HomeStyle>
   );
 };
