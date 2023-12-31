@@ -1,27 +1,10 @@
-# React + TypeScript + Vite
+## NFT Marketplace Web Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### SignUp page
+![screencapture-localhost-5173-signup-2023-12-31-10_58_36](https://github.com/Rutvi25/NFT-marketplace-React-Component-Development/assets/97082690/0ef28d79-4273-4760-b005-2c795daac930)
 
-Currently, two official plugins are available:
+### Home Page
+![screencapture-localhost-5173-2023-12-31-10_58_58](https://github.com/Rutvi25/NFT-marketplace-React-Component-Development/assets/97082690/15f5d772-7cf4-4b9c-944a-c97a056ce308)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Marketplace
+![screencapture-localhost-5173-marketplace-2023-12-31-11_00_06](https://github.com/Rutvi25/NFT-marketplace-React-Component-Development/assets/97082690/f296e4b5-1604-4cbe-b8c2-d064030e5da3)
